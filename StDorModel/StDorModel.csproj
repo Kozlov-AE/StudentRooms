@@ -6,4 +6,8 @@
 
   <Import Project="..\CommLibrary\CommLibrary.projitems" Label="Shared" />
 
+  <ItemGroup>
+    <ProjectReference Include="..\StDorModelLibrary\StDorModelLibrary.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -11,7 +12,7 @@ namespace StDorModelLibrary.Interfaces
     {
         /// <summary>Возвращает все объекты из коллекции</summary>
         /// <returns>Множество объектов <typeparamref name="T"/></returns>
-        Task<HashSet<T>> GetAsync();
+        Task<ImmutableHashSet<T>> GetAsync();
         /// <summary>Удаляет заданный экземпляр коллекции</summary>
         /// <param name="value">Удаляемый экземпляр</param>
         /// <exception cref="StDorModelExceptionEnum">Возникает когда нет экземпляра с таким ID или когда его данные отличны</exception>

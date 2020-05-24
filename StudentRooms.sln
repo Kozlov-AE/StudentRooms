@@ -11,6 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StDorModelLibrary", "StDorM
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		CommLibrary\CommLibrary.projitems*{357408a5-969a-4e87-a192-15575398a94e}*SharedItemsImports = 5
 		CommLibrary\CommLibrary.projitems*{cfddce92-390b-41b6-a708-8b5f22c6dc66}*SharedItemsImports = 13
 		CommLibrary\CommLibrary.projitems*{e48d92b2-45b0-499a-b8e7-20f2674c4a05}*SharedItemsImports = 5
 	EndGlobalSection

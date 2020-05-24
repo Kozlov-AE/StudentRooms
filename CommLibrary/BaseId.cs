@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Xml.Serialization;
 
 namespace CommLibrary
@@ -26,5 +27,16 @@ namespace CommLibrary
 
         public int GetHashCode(BaseId obj) => obj.GetHashCode();
         #endregion
+
+        /// <summary>Метод нахождения нового уникального ID для заданного набора</summary>
+        /// <param name="set">Набор</param>
+        /// <returns>int ID неимеющийся в наборе</returns>
+        public static int NewId<T>(HashSet<T> set) where T : BaseId
+        {
+            BaseId newId = new BaseId() { ID = set.Count };
+            while (set.Contains(newId))
+                newId.ID++;
+            return newId.ID;
+        }
     }
 }

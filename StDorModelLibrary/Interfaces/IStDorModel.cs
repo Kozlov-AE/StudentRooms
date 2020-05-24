@@ -17,5 +17,7 @@ namespace StDorModelLibrary.Interfaces
         bool IsDisposable { get; }
         /// <summary>Данные загружены</summary>
         bool IsLoaded { get; }
+        /// <summary>Источник данных</summary>
+        string Source { get; }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using CommLibrary;
+using System.Collections.Generic;
 using System.Xml.Serialization;
 
 namespace StDorModel.XMLClases
@@ -17,13 +18,13 @@ namespace StDorModel.XMLClases
         /// Множество общежитий
         /// </summary>
         [XmlArrayItemAttribute("Dormitory", IsNullable = false)]
-        public DormitoryXML[] Dormitories { get; set; }
+        public HashSet<DormitoryXML>  Dormitories { get; set; }
 
         /// <summary>
         /// Множество комнат
         /// </summary>
         [XmlArrayItem("Room", IsNullable = false)]
-        public RoomXML[] Rooms { get; set; }
+        public HashSet<RoomXML> Rooms { get; set; }
     }
 
 

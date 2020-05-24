@@ -1,6 +1,7 @@
 ﻿using StDorModelLibrary.DTOClasses;
 using System;
 using System.Collections.Generic;
+using System.Collections.Immutable;
 using System.Text;
 
 namespace StDorModelLibrary.Interfaces
@@ -9,5 +10,5 @@ namespace StDorModelLibrary.Interfaces
     /// <param name="sender">Объект где возникло событие</param>
     /// <param name="action">Какое было изменение</param>
     /// <param name="dormitories">Список измененных комнат</param>
-    public delegate void ChangedRoomsHandler(object sender, ActionChanged action, HashSet<RoomDTO> rooms);
+    public delegate void ChangedRoomsHandler(object sender, ActionChanged action, ImmutableHashSet<RoomDTO> rooms);
 }

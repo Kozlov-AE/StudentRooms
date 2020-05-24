@@ -5,7 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\StDorModel\StDorModel.csproj" />
+    <PackageReference Include="System.Collections.Immutable" Version="1.7.1" />
   </ItemGroup>
+
+  <Import Project="..\CommLibrary\CommLibrary.projitems" Label="Shared" />
 
 </Project>

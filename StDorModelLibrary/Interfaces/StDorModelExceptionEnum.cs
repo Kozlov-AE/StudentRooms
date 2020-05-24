@@ -14,6 +14,10 @@ namespace StDorModelLibrary.Interfaces
         /// <summary>Такой ID отсутствует</summary>
         NoSuchID,
         /// <summary>Не совпадают значения</summary>
-        DoNotMatch
+        DoNotMatch,
+        /// <summary>Ошибка загрузки данных</summary>
+        LoadingData,
+        /// <summary>Ошибка сохранения данных</summary>
+        SaveData
     }
 }

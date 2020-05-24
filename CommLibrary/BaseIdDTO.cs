@@ -7,7 +7,7 @@ namespace CommLibrary
     /// <summary>
     /// Базовый класс для DTO типов с уникальным и неизменяемым ID
     /// </summary>
-    public class BaseIdDTO : IEquatable<BaseId>, IEqualityComparer<BaseId>
+    public class BaseIdDTO : IEquatable<BaseIdDTO>, IEqualityComparer<BaseIdDTO>
     {
         /// <summary>
         /// Конструктор задающий ID
@@ -21,11 +21,11 @@ namespace CommLibrary
         public int ID { get; }
 
         #region Методы реализующие интерфейсы
-        public bool Equals(BaseId other) => ID == other.ID;
+        public bool Equals(BaseIdDTO other) => ID == other.ID;
         public override bool Equals(object obj) => obj is BaseId other && Equals(other);
 
-        public bool Equals(BaseId x, BaseId y) => x.Equals(y);
-        public int GetHashCode(BaseId obj) => obj.GetHashCode();
+        public bool Equals(BaseIdDTO x, BaseIdDTO y) => x.Equals(y);
+        public int GetHashCode(BaseIdDTO obj) => obj.GetHashCode();
         public override int GetHashCode() => ID.GetHashCode();
         #endregion
     }
