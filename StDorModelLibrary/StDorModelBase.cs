@@ -41,7 +41,7 @@ namespace StDorModelLibrary
         protected void OnChangedRoomsEvent(ImmutableHashSet<RoomDTO> rooms) => ChangedRoomsEvent?.Invoke(this, ActionChanged.Change, rooms);
 
 
-        public Task<ImmutableHashSet<DormitoryDTO>> GetAsync() => Task.Factory.StartNew(() => GetDormitories());
+        public Task<ImmutableHashSet<DormitoryDTO>> GetDormitoriesAsync() => Task.Factory.StartNew(() => GetDormitories());
         /// <summary>Возвращает все общежития</summary>
         /// <returns>Множество общежитий</returns>
         protected abstract ImmutableHashSet<DormitoryDTO> GetDormitories();
@@ -65,12 +65,12 @@ namespace StDorModelLibrary
         protected abstract void RemoveDormitory(DormitoryDTO dormitory);
 
 
-        Task<ImmutableHashSet<RoomDTO>> IBaseModelWorker<RoomDTO>.GetAsync() => Task.Factory.StartNew(() => GetRooms());
+        public Task<ImmutableHashSet<RoomDTO>> GetRoomsAsync() => Task.Factory.StartNew(() => GetRooms());
         /// <summary>Возвращает все комнаты всех общежитий</summary>
         /// <returns>Множество комнат</returns>
         protected abstract ImmutableHashSet<RoomDTO> GetRooms();
 
-        public Task<ImmutableHashSet<RoomDTO>> GetAsync(DormitoryDTO dormitory) => Task.Factory.StartNew(() => GetRooms(dormitory));
+        public Task<ImmutableHashSet<RoomDTO>> GetRoomsAsync(DormitoryDTO dormitory) => Task.Factory.StartNew(() => GetRooms(dormitory));
         /// <summary>Возвращает все комнаты заданного общежития</summary>
         /// <returns>Множество комнат</returns>
         protected abstract ImmutableHashSet<RoomDTO> GetRooms(DormitoryDTO dormitory);

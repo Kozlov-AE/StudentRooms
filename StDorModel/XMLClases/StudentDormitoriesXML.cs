@@ -11,8 +11,8 @@ namespace StDorModel.XMLClases
     [System.SerializableAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Xml.Serialization.XmlTypeAttribute(AnonymousType = true)]
-    [System.Xml.Serialization.XmlRootAttribute(Namespace = "", IsNullable = false)]
-    public partial class StudentDormitoriesXML : BaseId
+    [System.Xml.Serialization.XmlRootAttribute(IsNullable = false, ElementName = "StudentDormitories")]
+    public partial class StudentDormitoriesXML
     {
         /// <summary>
         /// Множество общежитий

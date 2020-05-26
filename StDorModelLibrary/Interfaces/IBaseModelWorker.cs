@@ -10,9 +10,6 @@ namespace StDorModelLibrary.Interfaces
     /// <typeparam name="T">Тип модели</typeparam>
     public interface IBaseModelWorker<T>
     {
-        /// <summary>Возвращает все объекты из коллекции</summary>
-        /// <returns>Множество объектов <typeparamref name="T"/></returns>
-        Task<ImmutableHashSet<T>> GetAsync();
         /// <summary>Удаляет заданный экземпляр коллекции</summary>
         /// <param name="value">Удаляемый экземпляр</param>
         /// <exception cref="StDorModelExceptionEnum">Возникает когда нет экземпляра с таким ID или когда его данные отличны</exception>

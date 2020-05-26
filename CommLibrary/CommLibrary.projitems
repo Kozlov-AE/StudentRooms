@@ -11,5 +11,6 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)BaseId.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)BaseIdDTO.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)RelayCommand.cs" />
   </ItemGroup>
 </Project>
