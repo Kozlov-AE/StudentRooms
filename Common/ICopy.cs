@@ -8,7 +8,7 @@ namespace CommLibrary
 {
     /// <summary>Поддерживает различные методы копирования</summary>
     /// <typeparam name="T">Тип экземпляра</typeparam>
-    interface ICopy<T>
+    public interface ICopy<T>
     {
         /// <summary>Создаёт копию экземпляра в типе экземпляра</summary>
         /// <returns>Новый экземпляр <typeparamref name="T"/> со скопированными значениями</returns>

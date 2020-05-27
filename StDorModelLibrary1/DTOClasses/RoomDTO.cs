@@ -16,10 +16,9 @@ namespace StDorModelLibrary.DTOClasses
             DormitoryID = dormitoryID;
             Number = number;
         }
-
         /// <summary>ID общежития</summary>
-        public int DormitoryID { get; }
+        public int DormitoryID { get; set; }
         /// <summary>Номер комнаты</summary>
-        public int Number { get; }
+        public int Number { get; set; }
     }
 }

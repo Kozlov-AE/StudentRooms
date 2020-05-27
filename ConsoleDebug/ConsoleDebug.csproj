@@ -67,12 +67,16 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Common\CommLibrary.csproj">
+      <Project>{A8122F7B-84C8-4CE4-8C12-C10CA7A8801A}</Project>
+      <Name>CommLibrary</Name>
+    </ProjectReference>
     <ProjectReference Include="..\StDorModelLibrary\StDorModelLibrary.csproj">
-      <Project>{357408A5-969A-4E87-A192-15575398A94E}</Project>
+      <Project>{B98276B4-611B-43CA-A6CE-1005B02F15AA}</Project>
       <Name>StDorModelLibrary</Name>
     </ProjectReference>
     <ProjectReference Include="..\StDorModel\StDorModel.csproj">
-      <Project>{E48D92B2-45B0-499A-B8E7-20F2674C4A05}</Project>
+      <Project>{0ED60033-56AD-4F35-B101-651B8A9AA6D6}</Project>
       <Name>StDorModel</Name>
     </ProjectReference>
   </ItemGroup>
