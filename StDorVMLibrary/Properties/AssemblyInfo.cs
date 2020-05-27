@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанные со сборкой.
-[assembly: AssemblyTitle("CommLibrary")]
+[assembly: AssemblyTitle("StDorVMLibrary")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("CommLibrary")]
+[assembly: AssemblyProduct("StDorVMLibrary")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Следующий GUID служит для идентификации библиотеки типов, если этот проект будет видимым для COM
-[assembly: Guid("a8122f7b-84c8-4ce4-8c12-c10ca7a8801a")]
+[assembly: Guid("e36a733a-fa7b-4d1b-a6d9-ecc897c15150")]
 
 // Сведения о версии сборки состоят из указанных ниже четырех значений:
 //
