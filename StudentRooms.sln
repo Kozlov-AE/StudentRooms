@@ -16,6 +16,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StDorModel", "StDorModel\St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StDorModelLibrary", "StDorModelLibrary\StDorModelLibrary.csproj", "{B98276B4-611B-43CA-A6CE-1005B02F15AA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StDorViewLibrary", "StDorViewLibrary\StDorViewLibrary.csproj", "{35183950-EC95-49F1-A565-F4C912A1C829}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E36A733A-FA7B-4D1B-A6D9-ECC897C15150} = {E36A733A-FA7B-4D1B-A6D9-ECC897C15150}
+		{A8122F7B-84C8-4CE4-8C12-C10CA7A8801A} = {A8122F7B-84C8-4CE4-8C12-C10CA7A8801A}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentRooms", "StudentRooms\StudentRooms.csproj", "{48B2A703-BFD8-4032-A433-46EF9E5EF6FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,6 +50,14 @@ Global
 		{B98276B4-611B-43CA-A6CE-1005B02F15AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B98276B4-611B-43CA-A6CE-1005B02F15AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B98276B4-611B-43CA-A6CE-1005B02F15AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35183950-EC95-49F1-A565-F4C912A1C829}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35183950-EC95-49F1-A565-F4C912A1C829}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35183950-EC95-49F1-A565-F4C912A1C829}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35183950-EC95-49F1-A565-F4C912A1C829}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48B2A703-BFD8-4032-A433-46EF9E5EF6FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48B2A703-BFD8-4032-A433-46EF9E5EF6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48B2A703-BFD8-4032-A433-46EF9E5EF6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48B2A703-BFD8-4032-A433-46EF9E5EF6FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

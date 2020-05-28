@@ -49,6 +49,7 @@
     <Compile Include="BaseId.cs" />
     <Compile Include="BaseIdDTO.cs" />
     <Compile Include="BaseIdVMDTO.cs" />
+    <Compile Include="IBaseId.cs" />
     <Compile Include="ICopy.cs" />
     <Compile Include="IEquatableValues.cs" />
     <Compile Include="OnPropertyChangedClass.cs" />

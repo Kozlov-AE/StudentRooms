@@ -1,4 +1,5 @@
 ﻿using CommLibrary;
+using Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace CommLibrary
 {
-    public abstract class BaseIdVM<DTO> : OnPropertyChangedClass, IEquatableValues<BaseIdVM<DTO>>
+    public abstract class BaseIdVM<DTO> : OnPropertyChangedClass, IEquatableValues<BaseIdVM<DTO>>, IBaseId
             where DTO : BaseIdDTO
     {
         /// <summary>Приватное поля для хранения значения свойства</summary>
