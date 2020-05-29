@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StDorViewLibrary", "StDorVi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentRooms", "StudentRooms\StudentRooms.csproj", "{48B2A703-BFD8-4032-A433-46EF9E5EF6FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StDorViewModel", "StDorViewModel\StDorViewModel.csproj", "{68E6FD0C-82C2-42A9-A91D-715418F23442}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,6 +60,10 @@ Global
 		{48B2A703-BFD8-4032-A433-46EF9E5EF6FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48B2A703-BFD8-4032-A433-46EF9E5EF6FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48B2A703-BFD8-4032-A433-46EF9E5EF6FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68E6FD0C-82C2-42A9-A91D-715418F23442}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68E6FD0C-82C2-42A9-A91D-715418F23442}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68E6FD0C-82C2-42A9-A91D-715418F23442}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68E6FD0C-82C2-42A9-A91D-715418F23442}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
